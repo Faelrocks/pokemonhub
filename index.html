@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <title>Pichu - The Pokémon Hub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--JS Carrossel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+          <span class="cabecalho__menu-hamburger container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista_menu__titulo">Categorias</li>
+
+          <li class="lista_menu__item">
+            <a href="#" class="lista_menu__link">Pokédex</a>
+          </li>
+
+          <li class="lista_menu__item">
+            <a href="#" class="lista_menu__link">Jogos</a>
+          </li>
+
+          <li class="lista_menu__item">
+            <a href="#" class="lista_menu__link">Animes</a>
+          </li>
+
+        </ul>
+          <img class="cabecalho__logo-pokemon container__imagem" src="img/logo.png" alt="Logo Pokémon">
+          <h1 class="container__titulo">The Pokémon Hub</h1>
+      </div>
+
+      <ul class="opcoes">
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Início</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Pokedex</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Jogos</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Anime</a></li>
+      </ul>
+
+
+
+      <div class="container">
+        <a href="#" class="containe__cadastro__imagem"><img src="img/login.png" class="container__imagem"></a>
+        <a href="#" class="containe__cadastro__texto">login/<br>cadasre-se</a>
+      </div>
+    </header>
+
+    <section class="banner">
+      <img class="banner__imagem" src="img/campanha.png">
+      <h2 class="banner__titulo">Pokémon GO</h2>
+      <p class="banner__texto">Embark on the path of Might and Mastery with a legendary Pokémon at your side!</p>
+    </section>
+
+    <!--Inicio dos Cards-->
+    <section class="carrossel">
+      
+      <!--Cartas Pokémon-->
+      <h2 class="carrossel__titulo">Cartas Pokémon</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/cards/bulbasaur.jpg"></div>
+          <div class="swiper-slide"><img src="img/cards/charmander.jpg"></div>
+          <div class="swiper-slide"><img src="img/cards/squirtle.jpg"></div>
+          <div class="swiper-slide"><img src="img/cards/pikachu.jpg"></div>
+          <div class="swiper-slide"><img src="img/cards/pichu.png"></div>
+        </div>
+      </div>
+      
+
+      <!--Pokedéx-->
+      <h2 class="carrossel__titulo">Pokédex</h2>
+          <div class="pokedex">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+
+                <!--Card1-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <div class="card_pokedex">
+                    <!-- 1a linha-->
+                    <div class="pokedex__descricao">
+                      <!-- 1a coluna-->
+                      <div class="descricao">
+                        <h2 class="descricao__titulo">Bulbasaur</h3>
+                        <h3 class="descricao__titulo__pokemon__grama">Grama</h2>
+                        <p class="descricao__texto">For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.</p>
+                      </div>
+                      <!-- 2a coluna-->
+                      <img src="img/pokedex/bulbasaur.png" class="imagem__pokemon">
+                    </div>
+                    <!-- 2a linha-->
+                    <div class="pokedex__botoes">
+                      <!-- 1a coluna-->
+                      <ul class="botoes">
+                        <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                        <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                        <li class="botoes__item_regiao_texto">Kanto</li>
+                      </ul>
+                      <!-- 2a coluna-->
+                      <a href="#" class="botoes__ancora">Saiba mais</a>
+                    </div>
+                  </div>
+                  <!--Final Container-->
+                </div>
+
+                <!--Card2-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <!-- 1a linha-->
+                  <div class="pokedex__descricao">
+                    <!-- 1a coluna-->
+                    <div class="descricao">
+                      <h2 class="descricao__titulo">Charmander</h3>
+                      <h3 class="descricao__titulo__pokemon__fogo">Fogo</h2>
+                      <p class="descricao__texto">The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.</p>
+                    </div>
+                    <!-- 2a coluna-->
+                    <img src="img/pokedex/charmander.png" class="imagem__pokemon">
+                  </div>
+                  <!-- 2a linha-->
+                  <div class="pokedex__botoes">
+                    <!-- 1a coluna-->
+                    <ul class="botoes">
+                      <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                      <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                      <li class="botoes__item_regiao_texto">Kanto</li>
+                    </ul>
+                    <!-- 2a coluna-->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                  </div>
+                  <!--Final Container-->
+                </div>
+
+                <!--Card3-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <!-- 1a linha-->
+                  <div class="pokedex__descricao">
+                    <!-- 1a coluna-->
+                    <div class="descricao">
+                      <h2 class="descricao__titulo">Squirtle</h3>
+                      <h3 class="descricao__titulo__pokemon__agua">Água</h2>
+                      <p class="descricao__texto">The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.</p>
+                    </div>
+                    <!-- 2a coluna-->
+                    <img src="img/pokedex/squirtle.png" class="imagem__pokemon">
+                  </div>
+                  <!-- 2a linha-->
+                  <div class="pokedex__botoes">
+                    <!-- 1a coluna-->
+                    <ul class="botoes">
+                      <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                      <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                      <li class="botoes__item_regiao_texto">Kanto</li>
+                    </ul>
+                    <!-- 2a coluna-->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                  </div>
+                  <!--Final Container-->
+                </div>                
+
+                <!--Card4-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <!-- 1a linha-->
+                  <div class="pokedex__descricao">
+                    <!-- 1a coluna-->
+                    <div class="descricao">
+                      <h2 class="descricao__titulo">Pikachu</h3>
+                      <h3 class="descricao__titulo__pokemon__eletrico">Elétrico</h2>
+                      <p class="descricao__texto">The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.</p>
+                    </div>
+                    <!-- 2a coluna-->
+                    <img src="img/pokedex/pikachu.png" class="imagem__pokemon">
+                  </div>
+                  <!-- 2a linha-->
+                  <div class="pokedex__botoes">
+                    <!-- 1a coluna-->
+                    <ul class="botoes">
+                      <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                      <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                      <li class="botoes__item_regiao_texto">Kanto</li>
+                    </ul>
+                    <!-- 2a coluna-->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                  </div>
+                  <!--Final Container-->
+                </div>                
+                
+                <!--Card5-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <!-- 1a linha-->
+                  <div class="pokedex__descricao">
+                    <!-- 1a coluna-->
+                    <div class="descricao">
+                      <h2 class="descricao__titulo">Pichu</h3>
+                      <h3 class="descricao__titulo__pokemon__eletrico">Electric</h2>
+                      <p class="descricao__texto">It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously.</p>
+                    </div>
+                    <!-- 2a coluna-->
+                    <img src="img/pokedex/pichu.png" class="imagem__pokemon">
+                  </div>
+                  <!-- 2a linha-->
+                  <div class="pokedex__botoes">
+                    <!-- 1a coluna-->
+                    <ul class="botoes">
+                      <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                      <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                      <li class="botoes__item_regiao_texto">Kanto</li>
+                    </ul>
+                    <!-- 2a coluna-->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                  </div>
+                  <!--Final Container-->
+                </div>                
+                
+
+                <!--Card6-->
+                <div class="swiper-slide">
+                  <!--Inicio Container-->
+                  <!-- 1a linha-->
+                  <div class="pokedex__descricao">
+                    <!-- 1a coluna-->
+                    <div class="descricao">
+                      <h2 class="descricao__titulo">Evee</h3>
+                      <h3 class="descricao__titulo__pokemon__normal">Normal</h2>
+                      <p class="descricao__texto">Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.</p>
+                    </div>
+                    <!-- 2a coluna-->
+                    <img src="img/pokedex/evee.png" class="imagem__pokemon">
+                  </div>
+                  <!-- 2a linha-->
+                  <div class="pokedex__botoes">
+                    <!-- 1a coluna-->
+                    <ul class="botoes">
+                      <li class="botoes__item"><img src="img/favoritos.svg"></li>
+                      <li class="botoes__item_regiao"><img src="img/regiao.svg"></li>
+                      <li class="botoes__item_regiao_texto">Kanto</li>
+                    </ul>
+                    <!-- 2a coluna-->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                  </div>
+                  <!--Final Container-->
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      <!--Jogos--> 
+      <h2 class="carrossel__titulo">Games</h2>
+
+        <div class="games">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+
+              <!--Card1-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Pokémon: Diamond</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo DS</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/diamond.jpeg" class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>
+
+              <!--Card2-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Pokémon: <br>Pealr</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo Switch</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/pearl.jpeg"class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>
+
+              <!--Card3-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Pokémon: <br>Arceus</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo Switch</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/arceus.jpeg" class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>              
+              
+              <!--Card4-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Detective Pikachu</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo Switch</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/pikachu.jpeg" class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>              
+
+              <!--Card5-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Pokémon: <br>X & Y</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo 3DS</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/pokemonx.jpeg" class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>                 
+
+              <!--Card6-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="games__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao__games">
+                    <h2 class="descricao__titulo__games">Pokémon: <br>Moon</h3>
+                    <h3 class="descricao__plataforma__games">Nintendo 3DS</h2>
+                    <p class="descricao__texto__games">Capture, treine e lute com seu Pokémon em uma jornada para tentar se tornar o campeão da Pokémon League!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/jogos/moon.jpeg" class="imagem__games">
+                </div>
+                <!-- 2a linha-->
+                <div class="games__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes__games">
+                    <li class="botoes__item__games"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__games"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__games">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>      
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <!--Anime--> 
+      <h2 class="carrossel__titulo">Anime</h2>
+
+        <div class="anime">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+
+              <!--Card1-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="anime__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao">
+                    <h2 class="descricao__titulo__anime">Pokémon: Horizons</h3>
+                    <h3 class="descricao__data__anime">Lançamento: 2010</h2>
+                    <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/anime/horizons.jpeg" class="imagem__anime">
+                </div>
+                <!-- 2a linha-->
+                <div class="anime__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes_anime">
+                    <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>
+
+              <!--Card2-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="anime__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao">
+                    <h2 class="descricao__titulo__anime">Pokémon: <br>Indigo</h3>
+                    <h3 class="descricao__data__anime">Lançamento: 2000</h2>
+                    <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/anime/indigo.jpg" class="imagem__anime">
+                </div>
+                <!-- 2a linha-->
+                <div class="anime__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes_anime">
+                    <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>
+
+              <!--Card3-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="anime__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao">
+                    <h2 class="descricao__titulo__anime">Pokémon: <br>Johto</h3>
+                    <h3 class="descricao__data__anime">Lançamento: 2000</h2>
+                    <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/anime/johto.jpg" class="imagem__anime">
+                </div>
+                <!-- 2a linha-->
+                <div class="anime__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes_anime">
+                    <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div>      
+              
+              <!--Card4-->
+              <div class="swiper-slide">
+                <!--Inicio Container-->
+                <!-- 1a linha-->
+                <div class="anime__descricao">
+                  <!-- 1a coluna-->
+                  <div class="descricao">
+                    <h2 class="descricao__titulo__anime">Pokémon: <br>Journeys</h3>
+                    <h3 class="descricao__data__anime">Lançamento: 2000</h2>
+                    <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                  </div>
+                  <!-- 2a coluna-->
+                  <img src="img/anime/journeys.jpg" class="imagem__anime">
+                </div>
+                <!-- 2a linha-->
+                <div class="anime__botoes">
+                  <!-- 1a coluna-->
+                  <ul class="botoes_anime">
+                    <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                    <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                  </ul>
+                  <!-- 2a coluna-->
+                  <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+                </div>
+                <!--Final Container-->
+              </div> 
+
+             <!--Card5-->
+             <div class="swiper-slide">
+              <!--Inicio Container-->
+              <!-- 1a linha-->
+              <div class="anime__descricao">
+                <!-- 1a coluna-->
+                <div class="descricao">
+                  <h2 class="descricao__titulo__anime">Pokémon: <br>Sun & Moon</h3>
+                  <h3 class="descricao__data__anime">Lançamento: 2000</h2>
+                  <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                </div>
+                <!-- 2a coluna-->
+                <img src="img/anime/sun_moon.jpg" class="imagem__anime">
+              </div>
+              <!-- 2a linha-->
+              <div class="anime__botoes">
+                <!-- 1a coluna-->
+                <ul class="botoes_anime">
+                  <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                  <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                </ul>
+                <!-- 2a coluna-->
+                <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+              </div>
+              <!--Final Container-->
+            </div> 
+
+             <!--Card6-->
+             <div class="swiper-slide">
+              <!--Inicio Container-->
+              <!-- 1a linha-->
+              <div class="anime__descricao">
+                <!-- 1a coluna-->
+                <div class="descricao">
+                  <h2 class="descricao__titulo__anime">Pokémon: <br>X & Y</h3>
+                  <h3 class="descricao__data__anime">Lançamento: 2000</h2>
+                  <p class="descricao__texto__anime">A série Pokémon: Horizontes é uma história nova e empolgante que acompanha as aventuras de Liko e Rain, e dos vários amigos e rivais que eles encontram!</p>
+                </div>
+                <!-- 2a coluna-->
+                <img src="img/anime/xy.jpeg" class="imagem__anime">
+              </div>
+              <!-- 2a linha-->
+              <div class="anime__botoes">
+                <!-- 1a coluna-->
+                <ul class="botoes_anime">
+                  <li class="botoes__item__anime"><img src="img/favoritos.svg"></li>
+                  <li class="botoes__item__anime"><img src="img/sacola.png"></li>
+                </ul>
+                <!-- 2a coluna-->
+                <a href="#" class="botoes__ancora__anime">Saiba mais</a>
+              </div>
+              <!--Final Container-->
+            </div>             
+
+          </div>
+        </div>
+    </section>
+
+  <footer class="rodape">
+    <p class="rodape_texto">Rafael Queiroz Moraes</p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      if (window.matchMedia("(min-width:1024px)").matches) {
+      const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 15,
+        slidesPerView: 3,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        }
+      })} else {
+        const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        }
+      })        
+      };
+    </script>
+  </body>
+</html>

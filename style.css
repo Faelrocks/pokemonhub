@@ -1,0 +1,25 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/footer.css");
+@import url("reset.css");
+
+:root {
+  --branco: white;
+  --preto: #322b2a; 
+  --azul: #002F52;
+  --laranja: #eb9b00;
+  --azul-medio:#085099;
+  --azul-claro: #d1eefd;
+  --cinza-claro: #C4C4C4;
+  --verde: green;
+  --vermelho: #b32a0a;
+  --fonte-principal: "Poppins";
+}
+
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}
