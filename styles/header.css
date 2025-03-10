@@ -1,0 +1,125 @@
+.cabecalho__menu-hamburger {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block; /* inline block permite mexer na altura e largura */
+}
+
+.cabecalho__logo-pokemon {
+  width: 40px;
+  height: 25px;
+}
+
+.cabecalho {
+  background-color: var(--azul);
+  color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+}
+
+.container__imagem {
+  padding: 1em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  width: 60vw;
+
+}
+
+.container__botao:checked~.lista-menu {
+  display: block;
+}
+
+.lista_menu__titulo, 
+.lista_menu__item {
+  padding: 1em;
+  background-color: var(--azul);
+}
+
+.lista_menu__titulo {
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.lista_menu__link {
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.container__botao {
+  display: none;
+}
+
+/* Ajuste Media querie para celular */
+.container__titulo {
+  font-weight: 700;
+}
+
+.opcoes {
+  display: none;
+}
+
+.containe__cadastro__texto {
+  display: none;
+}
+
+
+/* Ajustes Media Queries para desktop */
+@media screen and (min-width: 1024px) {
+  .cabecalho__logo-pokemon {
+    width: 120px;
+    height: 80px;
+  }
+  
+  .container__titulo {
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+  }
+
+  .opcoes {
+    display: flex;
+    padding: 48px;
+  }
+
+  .opcoes__item {
+    padding: 0 2vw;
+    color: var(--branco);
+    text-decoration: none;
+  }
+
+  .opcoes__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .containe__cadastro__texto {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 1vw;
+    display: block;
+  }
+
+  .cabecalho__menu-hamburger {
+    display: none;
+  }
+
+}

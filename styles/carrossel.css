@@ -1,0 +1,581 @@
+/* Cartas Pokémon */
+
+.carrossel {
+  background-color: var(--branco);
+}
+
+.carrossel__titulo {
+  color: var(--branco);
+  background-color: var(--azul-medio);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 3vw 1vw 3vw 1vw;
+}
+
+.swiper {
+  margin: 1vw;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position:initial;
+  margin: 1vw 0vw 0vw 0vw;
+}
+
+.pokedex {
+  background-color: var(--azul-claro);
+  box-shadow: 0 px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 2vw;
+  padding: 2vw;
+  align-items: center
+}
+
+.pokedex__descricao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descricao__titulo {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.descricao__titulo__pokemon {
+  color: var(--verde);
+  font-weight: 700;
+  font-size: 18px;
+  margin: 2vw 0;
+}
+
+.descricao__texto {
+  font-size: 14px;
+  margin: 2vw 0;
+}
+
+.imagem__pokemon {
+  height: 40vw;
+}
+
+.pokedex__botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes {
+  display: flex;
+  align-items: center
+}
+
+.botoes__item {
+  margin: 0 2vw;
+}
+
+.botoes__item_regiao {
+  color: black;
+  filter: grayscale(100);
+  width: 10vw;
+}
+
+.botoes__item_regiao_texto {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.botoes__ancora {
+  background-color: #CC0000;
+  padding: 1vw 6vw;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: var(--branco);
+}
+
+/* formatação secao jogos */
+
+.games {
+  background-color: var(--preto);
+  box-shadow: 0 px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 2vw;
+  padding: 2vw;
+  align-items: center
+}
+
+.games__descricao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descricao__titulo__games {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--branco);
+  text-align: center;
+}
+
+.descricao__plataforma__games {
+  color: var(--preto);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--vermelho);
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.descricao__texto__games {
+  font-size: 14px;
+  margin: 3vw 1vw;
+  text-align: center;
+  color: var(--branco);
+  margin-top: 5vw;
+}
+
+.imagem__games {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 95%;
+  height: 67vw;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.games__botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes__games {
+  display: flex;
+  align-items: center;
+}
+
+.botoes__item__games {
+  margin: 0 2vw;
+  filter:brightness(10);
+}
+
+.botoes__ancora__games {
+  background-color: var(--azul-medio);
+  border-top: 2vw;
+  padding: 2vw 14vw;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: var(--branco);
+}
+
+/* formatação secao anime */
+
+.anime {
+  background-color: var(--vermelho);
+  box-shadow: 0 px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 2vw;
+  padding: 2vw;
+  align-items: center
+}
+
+.anime__descricao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descricao__titulo__anime {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--branco);
+  text-align: center;
+}
+
+.descricao__data__anime {
+  color: var(--preto);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--branco);
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.descricao__texto__anime {
+  font-size: 14px;
+  margin: 3vw 1vw;
+  text-align: center;
+  color: var(--branco);
+  margin-top: 5vw;
+}
+
+.imagem__anime {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 95%;
+  height: 70vw;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.anime__botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes_anime {
+  display: flex;
+  align-items: center;
+}
+
+.botoes__item__anime {
+  margin: 0 2vw;
+  filter:brightness(10);
+}
+
+.botoes__item_regiao {
+  color: black;
+  filter: grayscale(100);
+  width: 10vw;
+}
+
+
+.botoes__ancora__anime {
+  background-color: var(--azul-medio);
+  border-top: 2vw;
+  padding: 2vw 14vw;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: var(--branco);
+}
+
+
+/* Ajustes media Queriees */
+
+@media screen and (min-width: 1024px) {
+  
+  /* Cartas Pokémon */
+  .carrossel__titulo {
+    color: var(--branco);
+    background-color: var(--azul-medio);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 3vw 1vw 3vw 1vw;
+  }
+  
+  .swiper {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* pokedex */
+
+  .pokedex {
+    background-color: var(--azul-claro);
+    margin: 0;
+    display: grid;
+    padding: 10px;
+    border-radius: 0px;
+    align-items: center
+  }
+  
+  .pokedex__descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul);
+    
+  }
+  
+  .descricao__titulo {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 30px 10px 20px 10px;
+    color: var(--branco);
+    background-color: var(--azul);
+  }
+  
+  .descricao__titulo__pokemon__grama {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--verde);
+    background-color: var(--azul);
+  }
+
+  .descricao__titulo__pokemon__fogo {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--vermelho);
+    background-color: var(--azul);
+  }
+
+  .descricao__titulo__pokemon__agua {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--azul-medio);
+    background-color: var(--azul);
+  }
+
+  .descricao__titulo__pokemon__eletrico {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--laranja);
+    background-color: var(--azul);
+  }
+
+  .descricao__titulo__pokemon__normal {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--cinza-claro);
+    background-color: var(--azul);
+  }
+  
+  .descricao__texto {
+    font-size: 14px;
+    color: var(--branco);
+    margin: 20px 10px 20px 10px;
+    background-color: var(--azul);
+  }
+  
+  .imagem__pokemon {
+    height: 150px;
+    width: 100%;
+    margin: 10px 10px;
+    background-color: var(--azul);
+  }
+  
+  .pokedex__botoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul);
+  }
+  
+  .botoes {
+    display: flex;
+    align-items: center
+  }
+  
+  .botoes__item {
+    margin: 0 15px;
+    filter: brightness(10);
+  }
+  
+  .botoes__item_regiao {
+    color: black;
+    filter: brightness(10);
+    width: 30px;
+  }
+  
+  .botoes__item_regiao_texto {
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--azul);
+  }
+  
+  .botoes__ancora {
+    background-color: #CC0000;
+    margin: 20px 10px 20px 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: var(--branco);
+  }
+
+  /* Games */
+
+  .games {
+    background-color: var(--preto);
+    margin: 0;
+    display: grid;
+    padding: 10px;
+    border-radius: 0px;
+    align-items: center
+  }
+  
+  .games__descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul);
+    
+  }
+  
+  .descricao__titulo__games {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 30px 10px 20px 10px;
+    color: var(--branco);
+    background-color: var(--azul);
+  }
+  
+  .descricao__plataforma__games {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--verde);
+    background-color: var(--azul);
+  }
+  
+  .descricao__texto__games {
+    font-size: 14px;
+    color: var(--branco);
+    margin: 20px 10px 20px 10px;
+    background-color: var(--azul);
+  }
+  
+  .imagem__games {
+    height: 150px;
+    width: 100%;
+    margin: 10px 10px;
+    background-color: var(--azul);
+  }
+  
+  .games__botoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul);
+  }
+  
+  .botoes__games {
+    display: flex;
+    align-items: center
+  }
+  
+  .botoes__item__games {
+    margin: 0 15px;
+    filter: brightness(10);
+  }
+  
+  .botoes__item__games {
+    color: black;
+    filter: brightness(10);
+    width: 30px;
+  }
+
+  
+  .botoes__ancora__games {
+    background-color: #CC0000;
+    margin: 20px 10px 20px 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: var(--branco);
+  }
+
+  /* Anime */
+
+  .anime {
+    background-color: var(--vermelho);
+    margin: 0;
+    display: grid;
+    padding: 10px;
+    border-radius: 0px;
+    align-items: center
+  }
+  
+  .anime__descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul);
+    
+  }
+  
+  .descricao__titulo__anime {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 30px 10px 20px 10px;
+    color: var(--branco);
+    background-color: var(--azul);
+  }
+  
+  .descricao__data__anime {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 10px 15px 10px;
+    color: var(--verde);
+    background-color: var(--azul);
+  }
+  
+  .descricao__texto__anime {
+    font-size: 14px;
+    color: var(--branco);
+    margin: 20px 10px 20px 10px;
+    background-color: var(--azul);
+  }
+  
+  .imagem__anime {
+    height: 150px;
+    width: 100%;
+    margin: 10px 10px;
+    background-color: var(--azul);
+  }
+  
+  .anime__botoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul);
+  }
+  
+  .botoes_anime {
+    display: flex;
+    align-items: center
+  }
+  
+  .botoes__item__anime {
+    filter: brightness(10);
+    width: 30px;
+  }
+
+  
+  .botoes__ancora__anime {
+    background-color: #CC0000;
+    margin: 20px 10px 20px 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: var(--branco);
+  }
+
+
+
+}
